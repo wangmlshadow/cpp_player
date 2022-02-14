@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lighthouse/study/github/cpp_player/数据结构/ListInt/MyListInt.cc
+MyListInt.h
+/home/lighthouse/study/github/cpp_player/数据结构/ListInt/MyListInt.h
+
+/home/lighthouse/study/github/cpp_player/数据结构/ListInt/MyListInt.h
+iostream
+-
+string
+-
+
+/home/lighthouse/study/github/cpp_player/数据结构/ListInt/main.cc
+MyListInt.h
+/home/lighthouse/study/github/cpp_player/数据结构/ListInt/MyListInt.h
+
