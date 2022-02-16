@@ -37,8 +37,8 @@ private:
         ~MyNodeInt();
 
     public:
-        ElementType m_data;
         MyNodeInt* m_next;
+        ElementType m_data;
     };
 private:
     void copy(const MySListInt& from);

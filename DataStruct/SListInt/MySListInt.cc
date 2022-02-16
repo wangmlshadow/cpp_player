@@ -18,20 +18,21 @@ MySListInt::MySListInt() : m_size(0) {
 }
 
 MySListInt::MySListInt(const MySListInt& from) {
+    m_size = 0;
     if (!from.empty()) {
         copy(from);
     }
     std::cout << "Init List with List." << std::endl;
 }
 
-MySListInt::MySListInt& operator=(const MySListInt& from) {
+MySListInt& MySListInt::operator=(const MySListInt& from) {
     std::cout << "operator = for List." << std::endl;
 
     if (this == &from) {
         return *this;
     } else {
         copy(from);
-        return *ythis;
+        return *this;
     }
 }
 
@@ -63,6 +64,7 @@ void MySListInt::push_front(const ElementType& val) {
 void MySListInt::push_back(const ElementType& val) {
     if (empty()) {
         m_head = new MyNodeInt(val);
+        m_tail = m_head;
     } else {
         m_tail->m_next = new MyNodeInt(val);
         m_tail = m_tail->m_next;
@@ -135,6 +137,7 @@ void MySListInt::clear() {
 }
 
 void MySListInt::copy(const MySListInt& from) {
+    std::cout << "MySListInt::copy" << std::endl;
     clear();
     auto p = from.m_head;
     while (p != nullptr) {

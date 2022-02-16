@@ -27,6 +27,7 @@ public:
 
     void erase(iterator i);
     void insert(iterator i, const ElementType& val);
+    void print(std::ostream& out);
 public:
     iterator begin() const noexcept;
     iterator begin() noexcept;
@@ -45,7 +46,7 @@ public:
     private:
         MyNodeInt* m_hold;
     };
-private:
+public:
     class MyNodeInt {
         friend class MyDListInt;
     private:

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lighthouse/study/github/cpp_player/DataStruct/DListInt/MyDListInt.cc
+MyDListInt.h
+/home/lighthouse/study/github/cpp_player/DataStruct/DListInt/MyDListInt.h
+
+/home/lighthouse/study/github/cpp_player/DataStruct/DListInt/MyDListInt.h
+iostream
+-
+cassert
+-
+

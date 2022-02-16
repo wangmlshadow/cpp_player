@@ -1,11 +1,11 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
+  "CMakeFiles/Demo.dir/MySListInt.cc.o"
   "CMakeFiles/Demo.dir/main.cc.o"
-  "CMakeFiles/Demo.dir/MyListInt.cc.o"
-  "Demo.pdb"
   "Demo"
+  "Demo.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang CXX)
-  INCLUDE(CMakeFiles/Demo.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang CXX)
+  include(CMakeFiles/Demo.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
