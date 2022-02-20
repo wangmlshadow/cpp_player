@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lighthouse/study/github/cpp_player/DataStruct/MyStack/MyStack.cc
+MyStack.h
+/home/lighthouse/study/github/cpp_player/DataStruct/MyStack/MyStack.h
+
+/home/lighthouse/study/github/cpp_player/DataStruct/MyStack/MyStack.h
+iostream
+-
+

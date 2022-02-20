@@ -1,0 +1,3 @@
+/home/lighthouse/study/github/cpp_player/DataStruct/MyStack/build/CMakeFiles/edit_cache.dir
+/home/lighthouse/study/github/cpp_player/DataStruct/MyStack/build/CMakeFiles/rebuild_cache.dir
+/home/lighthouse/study/github/cpp_player/DataStruct/MyStack/build/CMakeFiles/Demo.dir

@@ -1,0 +1,1 @@
+/usr/local/bin/clang++  -std=c++0x  -O0 -Wall -g -ggdb -rdynamic CMakeFiles/Demo.dir/MyStack.cc.o CMakeFiles/Demo.dir/main.cc.o -o Demo 
