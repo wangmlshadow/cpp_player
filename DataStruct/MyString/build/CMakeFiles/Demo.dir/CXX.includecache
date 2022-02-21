@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lighthouse/study/github/cpp_player/DataStruct/MyString/MyString.h
+iostream
+-
+cstring
+-
+
+/home/lighthouse/study/github/cpp_player/DataStruct/MyString/main.cc
+MyString.h
+/home/lighthouse/study/github/cpp_player/DataStruct/MyString/MyString.h
+
