@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lighthouse/study/github/cpp_player/DataStruct/MyVector/MyVector.cc
+cstring
+-
+cassert
+-
+cstdint
+-
+MyVector.h
+/home/lighthouse/study/github/cpp_player/DataStruct/MyVector/MyVector.h
+
+/home/lighthouse/study/github/cpp_player/DataStruct/MyVector/MyVector.h
+iostream
+-
+
+/home/lighthouse/study/github/cpp_player/DataStruct/MyVector/main.cc
+MyVector.h
+/home/lighthouse/study/github/cpp_player/DataStruct/MyVector/MyVector.h
+
