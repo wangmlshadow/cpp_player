@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lighthouse/study/github/cpp_player/DataStruct/MySharePtr/MySharePtr.h
+iostream
+-
+vector
+-
+
+/home/lighthouse/study/github/cpp_player/DataStruct/MySharePtr/main.cc
+MySharePtr.h
+/home/lighthouse/study/github/cpp_player/DataStruct/MySharePtr/MySharePtr.h
+string
+-
+
