@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lighthouse/study/github/cpp_player/DataStruct/MyHashMap/MyHashMap.cc
+algorithm
+-
+MyHashMap.h
+/home/lighthouse/study/github/cpp_player/DataStruct/MyHashMap/MyHashMap.h
+
+/home/lighthouse/study/github/cpp_player/DataStruct/MyHashMap/MyHashMap.h
+iostream
+-
+vector
+-
+list
+-
+string
+-
+
