@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lighthouse/study/github/cpp_player/DataStruct/MyBTree/MyBTree.cc
+MyBTree.h
+/home/lighthouse/study/github/cpp_player/DataStruct/MyBTree/MyBTree.h
+
+/home/lighthouse/study/github/cpp_player/DataStruct/MyBTree/MyBTree.h
+algorithm
+-
+list
+-
+vector
+-
+iostream
+-
+stack
+-
+
